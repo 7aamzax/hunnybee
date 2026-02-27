@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "name": "Hennessy V.S",
+    "description": "Smooth and well-rounded, Hennessy V.S is perfect for mixing or enjoying on the rocks.",
+    "price": "45",
+    "image": "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=400&h=400&fit=crop",
+    "currency": "$"
+  },
+  {
+    "id": "2",
+    "name": "Hennessy V.S.O.P",
+    "description": "A blend of eaux-de-vie aged in oak barrels. Rich and harmonious with a lasting finish.",
+    "price": "65",
+    "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=400&h=400&fit=crop",
+    "currency": "$"
+  },
+  {
+    "id": "3",
+    "name": "Hennessy X.O",
+    "description": "Exceptional cognac with deep complexity. A legendary blend for special moments.",
+    "price": "185",
+    "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=400&h=400&fit=crop",
+    "currency": "$"
+  }
+]
