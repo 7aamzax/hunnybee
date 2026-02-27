@@ -1,6 +1,8 @@
-# Reserve Bar – Spirits Catalog
+# Hunnybee – Spirits Catalog
 
 A professional catalog site for premium cognac and spirits, with ordering via Instagram.
+
+**GitHub Pages compatible:** All asset and link paths are relative, so the site works on both user/org Pages (`username.github.io`) and project Pages (`username.github.io/repo-name/`). No build step required.
 
 - **Public catalog**: `index.html` – name, description, price, image, and “Share / Order on Instagram” button.
 - **Admin**: `admin.html` – add, edit (photo, price, description, name), and delete items. Save by downloading `products.json` and updating the repo.
@@ -25,7 +27,7 @@ Instagram: [https://www.instagram.com/hannybiis?igsh=OWo5anFoZWpwN2Fp](https://w
 
 2. **Push this project** to the repo:
    ```bash
-   cd c:\Users\hamzehabuzir\Desktop\bii2
+   cd path/to/hunnybee
    git init
    git add .
    git commit -m "Reserve Bar spirits catalog"
@@ -55,6 +57,8 @@ Instagram: [https://www.instagram.com/hannybiis?igsh=OWo5anFoZWpwN2Fp](https://w
 
 - `index.html` – Catalog (public).
 - `admin.html` – Admin panel (add/edit/delete items).
+- `404.html` – Custom 404 page (used by GitHub Pages for missing URLs).
+- `.nojekyll` – Tells GitHub Pages to serve the site as static files (no Jekyll).
 - `css/style.css` – Styles (dark + gold theme).
 - `js/catalog.js` – Loads products and Instagram share.
 - `js/admin.js` – Admin CRUD and download of `products.json`.
